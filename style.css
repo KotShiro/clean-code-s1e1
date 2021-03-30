@@ -16,7 +16,7 @@ body {
 .header .header__link {
   font-family: fantasy, cursive;
 }
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .header {
     text-align: center;
@@ -37,14 +37,14 @@ body {
   display: flex;
 }
 .current-tasks, .completed-tasks {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .task, h3 {
-  list-style:none;
+  list-style: none;
 }
 .new-task_input, .task__input, .new-task__btn_add, .task__btn_edit, .task__btn_del {
-  outline:none;
+  outline: none;
 }
 .new-task__btn_add, .task__btn_edit, .task__btn_del {
   background: none;
@@ -140,12 +140,12 @@ h3,
 
 /* Edit Task */
 .task__input {
-  display:none
+  display: none
 }
 .task_edit .task__input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 .task_edit .task__label {
-  display:none;
+  display: none;
 }
