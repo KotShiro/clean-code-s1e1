@@ -31,7 +31,7 @@ body {
 .new-task_input, .task__label, .task__input {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .new-task__wrapper {
   display: flex;
@@ -118,7 +118,7 @@ h3,
   width: 226px;
 }
 .task__input {
-  width: 226px
+  width: 226px;
 }
 .task__btn_del:hover {
   color: #cf2323;
@@ -134,17 +134,17 @@ h3,
 
 /* Completed */
 .completed-tasks .task__label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .task__input {
-  display: none
+  display: none;
 }
 .task_edit .task__input {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 .task_edit .task__label {
   display: none;
